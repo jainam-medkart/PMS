@@ -1,0 +1,96 @@
+.register-page {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9fafb;  /* Lighter background color */
+    border-radius: 10px;
+    color: #333;  /* Darker text color for better readability */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.register-page h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #003366;  /* Accent color for headings */
+}
+
+.register-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register-page label {
+    font-size: 1rem;
+    color: #666;  /* Lighter text color for labels */
+}
+
+.register-page input {
+    padding: 12px;
+    border: 1px solid #ccd6e0;  /* Subtle border color */
+    border-radius: 5px;
+    background-color: #f0f4f8;  /* Lighter background for input */
+    color: #333;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.register-page input:focus {
+    border-color: #5e81d5;  /* Accent color for focus */
+}
+
+.register-page button {
+    padding: 14px;
+    background-color: #5e81d5;  /* Accent blue color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-page button:hover {
+    background-color: #4a6da3;  /* Slightly darker blue for hover */
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #a1e0a0;  /* Green message color */
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.register-link a {
+    color: #5e81d5;  /* Accent blue color for links */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #4a6da3;  /* Darker blue on hover */
+}
+
+.error {
+    color: #ff4d4d;  /* Red color for error messages */
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
